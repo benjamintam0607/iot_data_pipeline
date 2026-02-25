@@ -59,6 +59,32 @@ Example:
 python -m src.main -i test-data -d data/my_database.db
 ```
 
+## Docker Deployment
+
+### Build Image
+
+```bash
+docker build -t iot-processor .
+```
+
+### Run Container
+
+```bash
+docker run -it --rm iot-processor
+```
+
+### Quick Demo
+
+```bash
+# Build and run in one command
+docker build -t iot-processor . && docker run -it --rm iot-processor
+```
+
+The container will:
+1. Generate test CSV data
+2. Process data and store in SQLite
+3. Run tests
+
 ## Testing
 
 ```bash
