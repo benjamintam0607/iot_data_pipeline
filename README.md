@@ -64,8 +64,8 @@ python src/main.py -i test-data -d data/my_database.db
 ### Build Image
 
 ```bash
-git clone
-cd
+git clone https://github.com/benjamintam0607/iot_data_pipeline.git
+cd iot_data_pipeline
 docker build -t iot-processor .
 ```
 
@@ -106,5 +106,6 @@ python scripts/test.py
 - Invalid table
 - Duplicate sensor config
 - Wrong column count
+
 
 
