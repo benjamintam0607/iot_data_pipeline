@@ -21,9 +21,9 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 
-DEFAULT_OUTPUT_DIR = "./test-data"
+DEFAULT_OUTPUT_DIR = "./target_directory"
 DEFAULT_NUM_FILES = 1000
-DEFAULT_ROWS_PER_FILE = 5000
+DEFAULT_ROWS_PER_FILE = 500
 DEFAULT_SENSOR_COUNT = 4
 
 SENSOR_NAMES = [

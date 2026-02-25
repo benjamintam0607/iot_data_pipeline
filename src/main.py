@@ -10,7 +10,7 @@ from db import init_db
 from worker import process_file
 
 DEFAULT_TARGET_DIR = "target_directory"
-DEFAULT_DB_PATH = "data/iot.db"
+DEFAULT_DB_PATH = "database/iot.db"
 
 def parse_args():
     import argparse
