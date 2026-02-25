@@ -47,7 +47,7 @@ Options:
 ### Data Processing
 
 ```bash
-python -m src.main [-i INPUT_DIR] [-d DB_PATH]
+python src/main.py [-i INPUT_DIR] [-d DB_PATH]
 ```
 
 Options:
@@ -56,7 +56,7 @@ Options:
 
 Example:
 ```bash
-python -m src.main -i test-data -d data/my_database.db
+python src/main.py -i test-data -d data/my_database.db
 ```
 
 ## Docker Deployment
@@ -104,3 +104,4 @@ python scripts/test.py
 - Invalid table
 - Duplicate sensor config
 - Wrong column count
+
