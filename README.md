@@ -27,6 +27,8 @@ root/
 ## Setup
 
 ```bash
+git clone https://github.com/benjamintam0607/iot_data_pipeline.git
+cd iot_data_pipeline
 pip install -r requirements.txt
 ```
 
@@ -106,6 +108,7 @@ python scripts/test.py
 - Invalid table
 - Duplicate sensor config
 - Wrong column count
+
 
 
 
